@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express is a node.js framework. It breaks down the code and allows for easy to write api's.
+
 - [ ] Describe Middleware?
+
+middleware is basically how it sounds. It is a function or other piece of code that is inserted onto the path of your program that your code now has to pass through. Some of these are for security and other are for editing and updating your code.
 
 - [ ] Describe a Resource?
 
+
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+it sends back a status as well as sometimes a note or log that confirms the action. Or if something was being called then it can return the object.
+
 - [ ] How can we partition our application into sub-applications?
+
+We do this by adding files and spreading the information among them. This way we can call what is needed and have cleaner files to work with.
 
 ## Project Setup
 
